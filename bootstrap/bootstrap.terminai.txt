@@ -1,0 +1,11 @@
+<div class="row"> </div> eilute
+ dalina eilute i dvylika daliu, matosi  tik su spalva
+<div class="col" </div> nieko neparašius dalina pats
+
+col-sm - klauso kai didesnis, plancete
+col-md - vidutinis ekranas, plancete sonu
+lg kompiuteris
+xl didziulis ekranas
+<div class="col"  p-0</div> p= atitraukimas / padding
+img =žyma
+style, src, alt - žymos atributai

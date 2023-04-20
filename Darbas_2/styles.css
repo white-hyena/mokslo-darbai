@@ -1,0 +1,72 @@
+div {
+	position: relative; #pozicija vienas paskui kita naujoje eiluteje
+}
+
+.viso-plocio 
+{
+	width: 100%; #uzpildo visa ploti, ekrano arba tevo
+}
+
+.aukstis-100
+{
+	height: 100%; #uzpildo visa auksti, ekrano arba tevo
+}
+
+.aukstis-40px
+{
+	height: 40px; #aukstis 40 pikseliu
+}
+
+.plotis-5
+{
+	width: 5%; #plotis 5% ekrano arba tevo
+}
+
+.plotis-15
+{
+	width: 15%; #plotis 15% ekrano arba tevo
+}
+
+.plotis-1\/6
+{
+	width: 16.667%; #plotis 16.667% arba 1/6 ekrano arba tevo
+}
+
+div.kaire
+{
+	float: left; //divas "nuplaukia" i kaire
+}
+
+div.desine
+{
+	float: right; #divas "nuplaukia" i desine
+}
+
+div.vienoj-eilej
+{
+	display: inline-block; #divus rodome vienoje eileje
+}
+
+div.centruoti
+{
+	position: relative;
+	margin: 0 auto; # nustatome paraste is virsaus ir apacios - 0, is sonu didziausi galimi ir vienodi
+	height: auto; # aukstis automatinis pagal turini
+}
+
+div.centras
+{
+	width: 65%; #plotis 65%
+	padding: 6px; # turinio atitraukimas is visu pusiu po 6 pikselius
+}
+
+.susispausti
+{
+	margin-left: -3px; #neigiamos parastes is kaires 3 pikseliu
+	margin-right: -3px; #neigiamos parastes is desines 3 pikseliu
+}
+
+.font-3
+{
+	font-size: medium; #vidutinis teksto dydis
+}

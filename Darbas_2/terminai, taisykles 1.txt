@@ -1,0 +1,24 @@
+CSS - cascade style scheets - pakopinė stilių lentelė (lentelių čia nėra, klaidinantis terminas)
+Pakopiniai stiliai
+
+CSS - 
+inline -  <p styles="color:blue">savaitgalis</p> 
+exsternal - išorinis, tai yra kitas failas, pvz. mano atveju styles.css
+internal - vidinis rašome <head><styles> ... </styles> </head>
+nebereikia viršuje styles.css
+
+HTML - vadiname žymėmis, pvz.: font, jai reikalingi atributai
+
+CSS - vadiname elementais
+
+background-color:silver;(fono spalva pilka)
+
+font-size:20px; arba labai dideli yra 2em; gali būti ir kiti
+
+.pav - klasė universali, naudojame visur kur logiškai įmanoma
+
+body{ background-color:tan} (viso fono spalva
+background-image;url('seven-hoy-number.png'); (fonas-paveikslėlis)
+
+div žymė nurodo sekciją dokumente, naudojama kaip konteineris kitiems 
+elementams, galime vadinti sritimi.

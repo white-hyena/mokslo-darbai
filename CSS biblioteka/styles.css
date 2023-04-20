@@ -1,0 +1,140 @@
+.turinys
+{
+    position: relative; /*realytivi tevo atzvilgiu */
+    padding-top: 6px; /*nuo virsaus*/
+    width: 100%; /*plotis*/
+    max-width: 800px; /*ne didesnis kaip 800*/
+    margin: auto; /*parastes automatines turinys isicentruoja per viduri*/
+}
+
+h3
+{
+    font-family: Rockwell, 'Arial Narrow Bold', sans-serif;
+}
+
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /*teksto lygiavimas*/
+}
+
+p.monospace /*skaiciai langeliuose*/
+{
+    font-family: consolas;
+    letter-spacing: 1px;/*tarpas tarp simboliu*/
+    margin-top: 20px;/*paraste virsuje*/
+    margin-left: 26px;/*paraste kaireje*/
+    margin-bottom: 6px; /*paraste apacioje*/
+    padding-bottom: 2px;/*atitraukimas apacioje*/
+}
+
+p.cursive /*rasymas ranka*/
+{
+    font-family: 'Ink free';
+    margin-top: 20px;/*paraste virsuje*/
+    margin-left: 26px;/*paraste kaireje*/
+    margin-bottom: 6px; /*paraste apacioje*/
+    padding-bottom: 1px;
+}
+
+h4
+{
+    font-family: 'Calibri', fantasy;
+    color: indianred; /*raudonas tekstas*/
+    text-align: center;
+}
+
+a /*zyma*/
+{
+    text-decoration: none;/*nera*/
+	color: red;
+}
+
+a.raudonas
+{
+    color: red;
+    text-transform: uppercase;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active /*mygtukas paspaustas*/
+{
+    color: black;
+}
+
+a:visited
+{
+    color: red;
+}
+
+.fonas-kvadrateliai
+{
+    border: solid indigo 1px; /*remelis vientisas-solid, indigo-spalva*/
+    border-radius: 8px; /*remelis uzapvalinimo dydis*/
+    width: 100%; /*plotis*/
+    min-height: 200px; /*maziausias aukstis, gali buti didesnis, bet ne mazesnis*/
+    background-color: #e5e5f7;/*fono spalva*/
+    opacity: 0.8; /*permatomumas*/
+    margin: 14px; /*paraste*/
+    background-image:  linear-gradient(indigo 1px, transparent 1px), linear-gradient(to right, indigo 1px, #e5e5f7 1px);
+	/*paveikslelio fonas, linijos is kampo*/
+    background-size: 20px 20px; /*kvadratuko dydis*/
+}
+
+.fonas-linijos
+{
+    border: solid indigo 1px; /*remelis vientisas-solid, indigo-spalva*/
+    border-radius: 8px; /*remelis uzapvalinimo dydis*/
+    width: 100%; /*plotis*/
+    min-height: 200px; /*maziausias aukstis, gali buti didesnis, bet ne mazesnis*/
+    background-color: #e5e5f7;
+    opacity: 0.8; /*permatomumas*/
+    margin: 14px; /*paraste*/
+    background-size: 20px 20px; /*kvadratuko dydis*/
+    background-image:  repeating-linear-gradient(0deg, indigo, indigo 1px, #e5e5f7 1px, #e5e5f7);
+
+}
+
+div.kaireje
+{
+    display: inline-block; /*atvaizdavimas neuzimant viso ploto*/
+    width: 49%; /*plotis*/
+    position: relative;
+    padding-top: 6px; /*atitraukimas nuo virsaus konteinerio viduje*/
+}
+
+div.desineje
+{
+    display: block; /*atvaizdavimas neuzimant viso ploto*/
+    width: 49%; /*plotis*/
+    float: right; /*eina i kaire*/ 
+}
+
+img
+{
+    height: 200px;
+    width: auto;
+    border: 1px solid indigo;
+    border-radius: 8px;
+}
+
+img.veidas
+{
+    position: absolute; /*absoliuti pozicija, kiti nesvarbus*/
+    right: 16px;
+    top: 16px; /*virsus*/
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.pelyte-sirdis
+{
+    cursor: url("sirdis.cur"), auto;
+}
+

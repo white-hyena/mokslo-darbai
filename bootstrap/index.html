@@ -1,0 +1,148 @@
+<!doctype html> <!--dokumento deklaracija-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8"><!--charset -simboliu seka,"utf-8" vieningas teksto formatas 8 versija,visoms kalboms, informacija narsyklei-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--bootstrap "viewport" -nustato naudojamos narsykles dydi, ploti-->
+        <title>Bootstrap darbas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body class="bg-light"> <!--bg yra background, fonas, puslapio sonines krastines vos pilkos-->
+        <div class="container bg-body"> 
+		<!--container apibrezia rodomo turinio ribas; bg-body pagal nutylejima spalva balta-->
+            <div class="row"> <!--div visur yra sritis su specializuota klase-->
+                <div class="col-2">
+                    <p class="bg-black bg-opacity-50 p-2 text-light">Greitos nuorodos</p>
+					<!--bg-opacity-50 permatomumas 50% juoda=pilka, p-2 atitraukimas 8 px is visu pusiu-->
+                    <p class="text-danger lead">TIK JUMS!</p> <!--dvi klases, raudona ir didesnis, plonesnis sriftas-->
+                    <p>Akcijos</p>
+                    <p>Atrakcijos</p>
+                    <p>Aukcionai</p>
+                    <p>Loterijos</p>
+                    <p>Žaidimai</p>
+                    <hr> <!--ilgas bruksnys-->
+                    <div class="small"> <!--visos sekcijos sriftas smulkesnio srifto-->
+                        <p class="text-danger lead">Prekės</p>
+                        <p>Vyrams</p>
+                        <p>Moterims</p>
+                        <p>Vaikams</p>
+                        <p>Namams</p>
+                        <p>Augintiniams</p>
+                        <p class="d-flex justify-content-end">&rsaquo; Pirk dabar!</p>
+						<!--d -display flex turinys paragrafo atvaizduojamas su papildoma informacija, paslankus turinys; -->
+						<!--justify-content-end turinys atvaizduojamas is desines-->
+                    </div>
+                    <p class="text-danger lead"><strong>Gera kaina</strong></p>
+					<!--strong yra naujos kartos bold, paryskinimas-->
+                </div>
+                <div class="col-8">
+                    <img src="assets/Antraste_header.PNG" class="img-fluid"/>
+					<!--"img-fluid" - uzpildo visa plota-->
+                    <div class="row align-items-center">
+					<!--"align-items-center" - sekcijos viduje esantys elementai iscentruoti-->
+                        <div class="col">
+                            <img class="img-fluid p-0" src="assets/rodykle_k.PNG"/>
+							<!--"img-fluid" - uzpildo visa plota-->
+                        </div>
+                        <div class="col-10">
+                            <div class="row align-items-center">
+							<!--"align-items-center" - sekcijos viduje esantys elementai iscentruoti-->
+                                <div class="col-2 p-0"> <!--p-0 padding 0 px atitraukimas is visu pusiu -->
+                                    <img class="w-100" src="assets/1.PNG"/><!--width plotis 100%-->
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/2.PNG"/>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/3.PNG"/>
+                                </div>
+                                <div class="col-2 p-0"> <!--p-0 padding 0 px atitraukimas is visu pusiu -->
+                                    <img class="w-100" src="assets/4.PNG"/><!--width plotis 100%-->
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/5.PNG"/>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/6.PNG"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="assets/rodykle_d.PNG"/>
+							<!--"img-fluid" - uzpildo visa plota-->
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <img src="assets/puslapiai.PNG"/>
+                    </div>
+                    <img class="img-fluid" src="assets/Eile.PNG">
+                    <div class="row lead"> <!--lead-sriftas, row-eilute-->
+                        <div class="col-6">
+                            <p><strong><font class="text-danger" face="Lucida Handwriting" >NUOLAIDOS</font> tik dabar!</strong></p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p>&rsaquo; Pažiūrėti</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+					<!--"align-items-center" - sekcijos viduje esantys elementai iscentruoti-->
+                        <div class="col">
+                            <img class="img-fluid p-0" src="assets/rodykle_k.PNG"/>
+							<!--p-0 padding 0 px atitraukimas is visu pusiu -->
+							<!--"img-fluid" - uzpildo visa plota-->
+                        </div>
+                        <div class="col-10">
+                            <div class="row align-items-center">
+							<!--"align-items-center" - sekcijos viduje esantys elementai iscentruoti-->
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/1a.PNG"/>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/2a.PNG"/>
+									<!--width plotis 100%-->
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/3a.PNG"/>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/4a.PNG"/>
+                                </div>
+                                <div class="col-2 p-0">
+								<!--p-0 padding 0 px atitraukimas is visu pusiu -->_
+                                    <img class="w-100" src="assets/5a.PNG"/> <!--width plotis 100%-->
+                                </div>
+                                <div class="col-2 p-0">
+                                    <img class="w-100" src="assets/6a.PNG"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="assets/rodykle_d.PNG"/>
+							<!--"img-fluid" - uzpildo visa plota-->
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-2">
+                    <img class="img-fluid" src="assets/1d.PNG">
+					<!--"img-fluid" - uzpildo visa plota-->
+                    <img class="img-fluid" src="assets/2d.PNG">
+                    <img class="img-fluid" src="assets/3d.PNG">
+                    <!-- simbolis: https://www.w3schools.com/charsets/tryit.asp?deci=8471 -->
+                    <ul class="list-group list-group-flush small">
+					<!--ul žymi saraso ribas, small smulkesnis tekstas, list-group bootstrap saraso klase -->
+                        <li class="list-group-item">&#8471; My Orders</li>
+						<!--li - zymi saraso elementa, item - bootstrap saraso elemento klase-->
+                        <li class="list-group-item">&#8471; My Coins</li>
+                        <li class="list-group-item">&#8471; Message Center</li>
+                        <li class="list-group-item">&#8471; Payment</li>
+                        <li class="list-group-item">&#8471; Wish List</li>
+                        <li class="list-group-item">&#8471; My Favorite Stores</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<!--bootstrap JavaScript biblioteka, privaloma kai naudoji Bootstrap-->
+    </body>
+</html>
